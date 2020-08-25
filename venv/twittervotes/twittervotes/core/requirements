@@ -1,0 +1,4 @@
+Flask==0.12.2
+oauth2==1.9.0.post1
+PyYAML==2.18.4
+Rx==1.6.0
