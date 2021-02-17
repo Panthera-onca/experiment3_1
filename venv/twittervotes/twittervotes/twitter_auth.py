@@ -42,7 +42,7 @@ def home():
     return render_template('index.html', link=url)
 
 @app.route('/callback')
-def callback():
+def callback(POST=None):
     global req_token
     global consumer
 
